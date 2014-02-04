@@ -1,0 +1,87 @@
+{
+
+	"theme": "WAVES-Themes/basic/theme.css",
+	
+	"actionOrder": [ "cluster", "collapse", "expand", "done" ],
+	
+	"initialLevel": 2,
+	
+	"buttons": {
+		"tokens": [
+				[
+					{	"img": "WAVES-Themes/basic/images/fraction.png",		"text": "Fraction",					"value": "'frac'",				"shortcut": "Ctrl+Alt+1"		},
+					{	"img": "WAVES-Themes/basic/images/exponent.png",		"text": "Exponent",					"value": "'sup'",				"shortcut": "Ctrl+Alt+2"		},
+					{	"img": "WAVES-Themes/basic/images/sqrt.png",			"text": "Square Root",				"value": "'sqrt'",				"shortcut": "Ctrl+Alt+3"		},
+					{	"img": "WAVES-Themes/basic/images/radical.png",			"text": "Radical",					"value": "'root'",				"shortcut": "Ctrl+Alt+4"		},
+					{	"img": "WAVES-Themes/basic/images/sub.png",				"text": "Subscript",				"value": "'sub'",				"shortcut": "Ctrl+Alt+5"		}
+				],
+				[
+					{	"img": "WAVES-Themes/basic/images/plusminus.png",		"text": "Plus or Minus",			"value": "\u00B1",				"shortcut": "Ctrl+Alt+6"		},
+					{	"img": "WAVES-Themes/basic/images/times.png",			"text": "Times",					"value": "\u00D7",				"shortcut": "Ctrl+Alt+7"		},
+					{	"img": "WAVES-Themes/basic/images/divide.png",			"text": "Divide",					"value": "\u00F7",				"shortcut": "Ctrl+Alt+8"		},
+					{	"img": "WAVES-Themes/basic/images/notequal.png",		"text": "Not Equal",				"value": "\u2260",				"shortcut": "Ctrl+Alt+9"		},
+					{	"img": "WAVES-Themes/basic/images/pi.png",				"text": "Pi",						"value": "\u03C0",				"shortcut": "Ctrl+Alt+0"		}
+				],
+				[
+					{   "img": "WAVES-Themes/basic/images/lessequal.png",		"text": "Less than or Equal to",	"value": "\u2264",				"shortcut": "Ctrl+Shift+1"		},
+					{   "img": "WAVES-Themes/basic/images/greaterequal.png",	"text": "Greater than or Equal to",	"value": "\u2265",				"shortcut": "Ctrl+Shift+2"		},
+					{	"img": "WAVES-Themes/basic/images/under.png",			"text": "Under",					"value": "'under'",				"shortcut": "Ctrl+Shift+3"		},
+					{	"img": "WAVES-Themes/basic/images/over.png",			"text": "Over",						"value": "'over'",				"shortcut": "Ctrl+Shift+4"		},
+					{	"img": "WAVES-Themes/basic/images/underover.png",		"text": "Under and Over",			"value": "'underover'",			"shortcut": "Ctrl+Shift+5"		}
+				],
+				[
+					
+					{	"img": "WAVES-Themes/basic/images/sum.png",				"text": "Summation",				"value": "\u2211'underover'",	"shortcut": "Ctrl+Shift+6"		},
+					{	"img": "WAVES-Themes/basic/images/integral.png",		"text": "Integral",					"value": "\u222B'subsup'",		"shortcut": "Ctrl+Shift+7"		},
+					{	"img": "WAVES-Themes/basic/images/arrow.png",			"text": "Right Arrow",				"value": "\u2192",				"shortcut": "Ctrl+Shift+8"		},
+					{	"img": "WAVES-Themes/basic/images/infinity.png",		"text": "Infinity",					"value": "\u221E",				"shortcut": "Ctrl+Shift+9"		},
+					{	"img": "WAVES-Themes/basic/images/subsup.png",			"text": "Subscript and Exponent",	"value": "'subsup'",			"shortcut": "Ctrl+Shift+0"		}
+				]
+		],
+		"cluster": 	{	"img": "WAVES-Themes/basic/images/cluster.png",			"text": "Group",													"shortcut": "Ctrl+Space"		},
+		"done":		{															"text": "Done",														"shortcut": "Enter"			},
+		"expand":	{	"img": "WAVES-Themes/basic/images/expand.png",			"text": "Expand",													"shortcut": "Ctrl+Down"			},
+		"collapse":	{	"img": "WAVES-Themes/basic/images/collapse.png",		"text": "Collapse",													"shortcut": "Ctrl+Up"			}
+	},
+	
+	"replacements": [
+		[ "\\a", "\u03B1" ], [ "\\b", "\u03B2" ], [ "\\g", "\u03B3" ], [ "\\d", "\u03B4" ], [ "\\e", "\u03B5" ], [ "\\z", "\u03B6" ], 
+		[ "\\h", "\u03B7" ], [ "\\q", "\u03B8" ], [ "\\i", "\u03B9" ], [ "\\k", "\u03BA" ], [ "\\l", "\u03BB" ], [ "\\m", "\u03BC" ], 
+		[ "\\n", "\u03BD" ], [ "\\x", "\u03BE" ], [ "\\o", "\u03BF" ], [ "\\p", "\u03C0" ], [ "\\r", "\u03C1" ], [ "\\s", "\u03C3" ], 
+		[ "\\t", "\u03C4" ], [ "\\y", "\u03C5" ], [ "\\f", "\u03C6" ], [ "\\c", "\u03C7" ], [ "\\u", "\u03C8" ], [ "\\w", "\u03C9" ], 
+		
+		[ "\\A", "\u0391" ], [ "\\B", "\u0392" ], [ "\\G", "\u0393" ], [ "\\D", "\u0394" ], [ "\\E", "\u0395" ], [ "\\Z", "\u0396" ], 
+		[ "\\H", "\u0397" ], [ "\\Q", "\u0398" ], [ "\\I", "\u0399" ], [ "\\K", "\u039A" ], [ "\\L", "\u039B" ], [ "\\M", "\u039C" ], 
+		[ "\\N", "\u039D" ], [ "\\X", "\u039E" ], [ "\\O", "\u039F" ], [ "\\P", "\u03A0" ], [ "\\R", "\u03A1" ], [ "\\S", "\u03A3" ], 
+		[ "\\T", "\u03A4" ], [ "\\Y", "\u03A5" ], [ "\\F", "\u03A6" ], [ "\\C", "\u03A7" ], [ "\\U", "\u03A8" ], [ "\\W", "\u03A9" ],
+		
+		[ "sqrt", "'sqrt'" ], [ "root", "'root'" ], [ "+-", "\u00B1" ], [ "*", "\u00D7" ], [ "!=", "\u2260" ], [ ">=", "\u2265" ], [ "<=", "\u2264" ],
+		[ "inf", "\u221E" ], [ "->", "\u2192" ], [ "'under''over'", "'underover'" ], [ "'sub''sup'", "'subsup'" ]
+	],
+	
+	"functions": [ 	"ln",     "log",    "exp",    "lim",    
+					"sinh",   "cosh",   "tanh",   "csch",   "sech",   "coth",
+					"sin",    "cos",    "tan",    "csc",    "sec",    "cot",
+					"arcsin", "arccos", "arctan", "arccsc", "arcsec", "arccot",
+					"arsinh", "arcosh", "artanh", "arcsch", "arsech", "arcoth" ],
+	
+	"negativePrecedence": 2,
+	"functionPrecedence": 2,
+	
+	"elements": {
+		"row":			{	"character": { "open": "\u276C", "close": "\u276D"	},
+													"precedence": 0,	"notation": "outfix",	"associativity": "ltr"				},
+		"fenced":		{	"character": { "open": "(",	     "close": ")"		},
+													"precedence": 1,	"notation": "outfix",	"associativity": "ltr"				},
+		"sub":			{	"character": "_",		"precedence": 2,	"notation": "infix",	"associativity": "rtl"				},
+		"sqrt":			{	"character": "\u221A",	"precedence": 2,	"notation": "prefix",	"associativity": "rtl"				},
+		"root":			{	"character": "\u237B",	"precedence": 2,	"notation": "infix",	"associativity": "rtl"				},
+		"sup":			{	"character": "^",		"precedence": 2,	"notation": "infix",	"associativity": "rtl"				},
+		"over":			{	"character": "\u2191",	"precedence": 2,	"notation": "infix",	"associativity": "rtl"				},
+		"under":		{	"character": "\u2193",	"precedence": 2,	"notation": "infix",	"associativity": "rtl"				},
+		"frac":			{	"character": "/",		"precedence": 3,	"notation": "infix",	"associativity": "ltr"				},
+		"subsup":		{	"character": "\u2A5F",	"precedence": 4,	"notation": "infix2",	"associativity": "rtl"				},
+		"underover":	{	"character": "\u2195",	"precedence": 4,	"notation": "infix2",	"associativity": "rtl"				}
+	}
+	
+}

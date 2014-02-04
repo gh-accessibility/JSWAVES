@@ -1,0 +1,116 @@
+#waves-toolbar {
+	position: absolute;
+	top: 32px;
+	left: 32px;
+	display: block;
+	border: 1px solid black;
+	border-radius: 8px;
+	-webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+}
+
+#waves-titlebar {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+	padding: 4px;
+	border-radius: 8px 8px 0px 0px;
+	background: -moz-gradient(#98B6D0, #B9D1EA);
+	background: -webkit-gradient(#98B6D0, #B9D1EA);
+	background: linear-gradient(#98B6D0, #B9D1EA);
+}
+
+#waves-menustrip {
+	display: none;
+}
+
+#waves-panel {
+	min-width: 200px;
+	background-color: #f0f0f0;
+	padding: 4px;
+	border-radius: 0px 0px 8px 8px;
+}
+
+#waves-display {
+	height: 120px;
+	background-color: white;
+	border: 1px solid black;
+	margin: 4px;
+}
+
+#waves-input-container {
+	margin: 4px;
+	margin-right: 6px;
+	width: auto;
+}
+
+#waves-input {
+	display: block;
+	width: 100%;
+	border: 1px solid #888;
+}
+
+#waves-panel button {
+	margin: 4px;
+}
+
+#waves-panel button img {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+}
+
+#waves-tokens button {
+	width: 35px;
+	height: 35px;
+	padding: 0;
+	position: relative;
+}
+
+#waves-tokens button img,
+#waves-cluster img {
+	top: 0;
+	left: 0;
+}
+
+#waves-actions {
+	position: relative;
+}
+
+#waves-cluster {
+	position: relative;
+	height: 28px;
+	width: 78px;
+	top: -5px;
+}
+
+#waves-done {
+	height: 28px;
+	width: 78px;
+}
+
+#waves-collapse {
+	position: relative;
+	top: -12px;
+	height: 14px;
+	width: 35px;
+}
+
+#waves-expand img,
+#waves-collapse img {
+	top: 3px;
+	left: 11px;
+}
+
+#waves-expand {
+	position: absolute;
+	height: 14px;
+	width: 35px;
+	top: 14px;
+	left: 86px;
+}
+
+#waves-panel button[disabled] img {
+	opacity: 0.5;
+	filter: alpha( opacity = 40 );
+}

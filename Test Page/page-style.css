@@ -1,0 +1,25 @@
+body {
+	background: #f0f0f0;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+#math-display {
+	background: white;
+	height: 200px;
+	border: 1px solid black;
+}
+
+#xml-display {
+	background: white;
+	height: 200px;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+.math {
+	padding: 8px;
+}
